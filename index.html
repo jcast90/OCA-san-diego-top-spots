@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>San Diego Top Spots</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.2/css/bulma.css">
+    <style>
+        #map {
+            height: 450px;
+        }
+        
+        .is-1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Write your markup here -->
+    <h1 class="title is-1">San Diego Top Spots</h1>
+    <div id="map"></div>
+    <table class="table is-striped">
+        <thead>
+            <tr>
+                <th>Activity</th>
+                <th>Description</th>
+                <!-- <th>Distance</th> -->
+                <th>Link</th>
+            </tr>
+        </thead>
+    </table>
+
+    <!-- Don't forget to add your <script> tag here -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBo_lqlLaR-JvTfHDZ0zw3I0MQ5tFzvxps&callback=initMap">
+    </script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
