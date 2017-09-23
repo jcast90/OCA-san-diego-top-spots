@@ -1,0 +1,1 @@
+For this project I used the provided JSON data file that had locations and descriptions of top spots in San Diego. I had to import the json file, then convert it into an html table with links and added hover functionality.
